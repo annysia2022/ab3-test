@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bankingapp-dev-214113-authRole",
+      "UnauthRoleArn": "arn:aws:iam::427398048271:role/amplify-bankingapp-dev-214113-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::427398048271:role/amplify-bankingapp-dev-214113-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bankingapp-dev-214113-deployment",
+      "UnauthRoleName": "amplify-bankingapp-dev-214113-unauthRole",
+      "StackName": "amplify-bankingapp-dev-214113",
+      "StackId": "arn:aws:cloudformation:us-east-1:427398048271:stack/amplify-bankingapp-dev-214113/c45e9780-7fe3-11ec-9fa9-0af9cde1e35f",
+      "AmplifyAppId": "d3rvfbjcu71w1c",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-bankingapp-dev-214113-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "bankingappf3bc649c": {},
+        "true": {}
+      },
+      "function": {
+        "tablecrudTrigger7b07f7c9": {
+          "deploymentBucketName": "amplify-bankingapp-dev-214113-deployment",
+          "s3Key": "amplify-builds/tablecrudTrigger7b07f7c9-684339594a486c337368-build.zip"
+        },
+        "crudLambda": {
+          "deploymentBucketName": "amplify-bankingapp-dev-214113-deployment",
+          "s3Key": "amplify-builds/crudLambda-682b725266764c665375-build.zip"
+        }
+      }
+    }
+  }
+}
